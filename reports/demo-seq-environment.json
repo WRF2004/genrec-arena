@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.3.5",
+  "device": "cpu",
+  "data_hash": "cea8d635f5c508ceaf3148a229cfac314f2a6fcdac340d95e826407215d9fbe2",
+  "gpu": null
+}

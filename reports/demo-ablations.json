@@ -1,0 +1,65 @@
+{
+  "random": {
+    "Recall@12": 0.5026041666666666,
+    "Hit@12": 0.9375,
+    "NDCG@12": 0.37929403872845374,
+    "MAP@12": 0.2226423460798461,
+    "users": 96,
+    "latency_ms_p50": 8.325194000008196,
+    "latency_ms_p95": 12.777782500052126,
+    "coverage": 0.9166666666666666,
+    "selected_epoch": 4,
+    "protocol": "multi-target window, full frozen catalog, no sampled negatives, repeats allowed",
+    "warm_user": {
+      "Recall@12": 0.5026041666666666,
+      "Hit@12": 0.9375,
+      "NDCG@12": 0.37929403872845374,
+      "MAP@12": 0.2226423460798461,
+      "users": 96
+    },
+    "cold_user": null,
+    "cold_target_user": null
+  },
+  "kmeans": {
+    "Recall@12": 0.947048611111111,
+    "Hit@12": 1.0,
+    "NDCG@12": 0.7384111996758547,
+    "MAP@12": 0.5823147772366523,
+    "users": 96,
+    "latency_ms_p50": 4.44897149998269,
+    "latency_ms_p95": 8.411500749957668,
+    "coverage": 1.0,
+    "selected_epoch": 4,
+    "protocol": "multi-target window, full frozen catalog, no sampled negatives, repeats allowed",
+    "warm_user": {
+      "Recall@12": 0.947048611111111,
+      "Hit@12": 1.0,
+      "NDCG@12": 0.7384111996758547,
+      "MAP@12": 0.5823147772366523,
+      "users": 96
+    },
+    "cold_user": null,
+    "cold_target_user": null
+  },
+  "rqvae": {
+    "Recall@12": 0.9444444444444443,
+    "Hit@12": 1.0,
+    "NDCG@12": 0.762835987188741,
+    "MAP@12": 0.5977971054793971,
+    "users": 96,
+    "latency_ms_p50": 4.415668500087122,
+    "latency_ms_p95": 6.858627000042361,
+    "coverage": 1.0,
+    "selected_epoch": 4,
+    "protocol": "multi-target window, full frozen catalog, no sampled negatives, repeats allowed",
+    "warm_user": {
+      "Recall@12": 0.9444444444444443,
+      "Hit@12": 1.0,
+      "NDCG@12": 0.762835987188741,
+      "MAP@12": 0.5977971054793971,
+      "users": 96
+    },
+    "cold_user": null,
+    "cold_target_user": null
+  }
+}

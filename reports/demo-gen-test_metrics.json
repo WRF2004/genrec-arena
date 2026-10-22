@@ -1,0 +1,20 @@
+{
+  "Recall@12": 0.9340277777777778,
+  "Hit@12": 1.0,
+  "NDCG@12": 0.7335888703431368,
+  "MAP@12": 0.5792689732142857,
+  "users": 96,
+  "latency_ms_p50": 4.694164000056844,
+  "latency_ms_p95": 7.670006000012108,
+  "coverage": 1.0,
+  "selected_epoch": 4,
+  "protocol": "multi-target window, full frozen catalog, no sampled negatives, repeats allowed",
+  "warm_user": {
+    "Recall@12": 0.9340277777777778,
+    "Hit@12": 1.0,
+    "NDCG@12": 0.7335888703431368,
+    "MAP@12": 0.5792689732142857,
+    "users": 96
+  },
+  "cold_target_user": null
+}

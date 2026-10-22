@@ -1,0 +1,7 @@
+{
+  "seed": 42, "epochs": 20, "batch_size": 128, "lr": 0.0003,
+  "dim": 128, "heads": 4, "layers": 3, "dropout": 0.1,
+  "max_history": 30, "levels": 3, "codebook_size": 64,
+  "tokenizer": "rqvae", "tokenizer_epochs": 50,
+  "k": 12, "beam": 64, "threads": 4
+}

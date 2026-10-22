@@ -1,0 +1,14 @@
+{
+  "semantic_collision_rate": 0.875,
+  "max_collision_bucket": 8,
+  "suffix_digits": 1,
+  "final_collision_rate": 0.0,
+  "utilization": [
+    0.75,
+    0.125
+  ],
+  "perplexity": [
+    5.999999999999998,
+    1.0
+  ]
+}
