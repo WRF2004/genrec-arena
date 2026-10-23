@@ -1,0 +1,26 @@
+name: DualSID Qwen CPU verification
+on:
+  push:
+    paths: ['dualsid-qwen/**', '.github/workflows/dualsid.yml']
+  pull_request:
+    paths: ['dualsid-qwen/**', '.github/workflows/dualsid.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: dualsid-qwen
+    env:
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -e '.[dev]'
+      - run: python -m pytest -q
+      - run: bash scripts/smoke.sh

@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "tiny": true,
+  "lora": true,
+  "lora_rank": 4,
+  "mode": "dual",
+  "max_length": 96,
+  "epochs": 1,
+  "batch_size": 16,
+  "gradient_accumulation": 1,
+  "lr": 0.003,
+  "bf16": false,
+  "gradient_checkpointing": false,
+  "cpu": true,
+  "seed": 42
+}
