@@ -17,3 +17,4 @@ genrec = "genrec.cli:main"
 where = ["src"]
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+testpaths = ["tests"]
